@@ -4,6 +4,8 @@ import Board from "./Components/Board";
 import { calculateWinner } from "./helpers";
 import History from "./Components/History";
 import StatusMessage from "./Components/StatusMessage";
+
+
 const NEW_GAME = [{ board: Array(9).fill(null), isXNext: true }];
 
 const App = () => {
